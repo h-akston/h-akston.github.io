@@ -82,13 +82,10 @@ analytics:
 author:
   name             : "Maksim Kulik"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  bio              : "Future MS in Human Language Technology, interested in Large Language Models, machine translation, and text generation"
+  location         : "Tucson, Arizona"
+  googlescholar    : "https://scholar.google.com/citations?view_op=list_works&hl=en&user=wRT4LLkAAAAJ"
+  email            : "kulik@arizona.edu"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +93,18 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "yourGHusername"
+  github           : "h-akston"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/akston/"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
