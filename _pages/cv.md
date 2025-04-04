@@ -11,50 +11,42 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* M.S. in Human Language Technology, University of Arizona, 2025 (expected)
+* M.A. in Applied Linguistics and Text Analytics, Higher School of Economics, 2023
+* B.A. in Translation Studies, Irkutsk State University, 2020
+
+Relevant Coursework
+======
+Information Technology in Translation; Translation of Special Texts; Meaning in Language Analysis; Functional Approaches to Natural Language; Introduction to NLP; Programming in Python; Speech Technology; Computational Linguistics; Statistical NLP; Advanced Computational Linguistics; Data Mining and Discovery; Neural Networks; Data Visualization; Applied NLP; Advanced ML Applications;
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+*  November 2024 — April 2025: Large Language Models Intern
+  * XRI Global
+  * Duties included: Benchmarking LLMs for low-resource languages
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+*  May 2021 — April 2023: Natural Language Processing Engineer
+  * A1SolarStore.com
+  * Duties included: Designed and implemented a system to automatically generate product descriptions based on specifications
+  Fine-tuned various image and language models to generate images and text in the same unique style the company has developed over the years
+
+* September 2020 — May 2021: Translator
+  * Eksmo Publishing
+  * Duties included: Translated Karl Deisseroth's book Projections: A Story of Human Emotions into Russian
+  Translated Peter Hollins' book Build a Better Brain into Russian
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Language skills: Russian (Native); English (C2); Spanish (C1)
+* Computer skills: Python (Numpy, Pandas, Re, Requests, NLTK, Spacy, Transformers, Scikit-learn, FastAI, H2O, PyTorch, OpenAI Gym, OpenCV, Matplotlib, Seaborn), Perl, Prolog, Git, Docker, AWS
 
-Publications
+Awards
 ======
-  # Can be listed manually, or generated from site elements using the following code: (only if you add these components back in)
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+January 2025: Edmund S. Muskie Professional Fellowship
+May 2023: Fulbright Foreign Student Grant
+September 2019: Oxford Russia Fund Scholarship
+November 2018: Black Sea International Translation Contest
+
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* University of Arizona Data Science Club: Participating in workshops and Kaggle competitions

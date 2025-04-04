@@ -54,12 +54,13 @@ The 2-step ReAct agent based on GPT-4o-mini achieves a score that is approximate
 
 
 [^note]: References:
-1. Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and Yuan Cao. 2023. ReAct: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS. 
 
-2. Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine, James Moore, Ruo Yu Tao, Matthew Hausknecht, Layla El Asri, Mahmoud Adada, Wendy Tay, and Adam Trischler. 2019. TextWorld: A Learning Environment for Text-based Games.
+    1. Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and Yuan Cao. 2023. ReAct: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS. 
 
-3. Peter A Jansen and Marc-Alexandre Côté. 2022. TextWorldExpress: Simulating Text Games at One Million Steps Per Second.
+    2. Marc-Alexandre Côté, Ákos Kádár, Xingdi Yuan, Ben Kybartas, Tavian Barnes, Emery Fine, James Moore, Ruo Yu Tao, Matthew Hausknecht, Layla El Asri, Mahmoud Adada, Wendy Tay, and Adam Trischler. 2019. TextWorld: A Learning Environment for Text-based Games.
 
-4. Keerthiram Murugesan, Mattia Atzeni, Pavan Kapanipathi, Pushkar Shukla, Sadhana Kumaravel, Gerald Tesauro, Kartik Talamadupula, Mrinmaya Sachan, and Murray Campbell. 2020. Text-based RL Agents with Commonsense Knowledge: New Challenges, Environments and Baselines.
+    3. Peter A Jansen and Marc-Alexandre Côté. 2022. TextWorldExpress: Simulating Text Games at One Million Steps Per Second.
 
-5. Binggang Zhuo and Masaki Murata. 2024. Utilizing GPT-4 to Solve TextWorld Commonsense Games Efficiently. In Proceedings of the 10th Workshop on Games and Natural Language Processing @ LREC182 COLING 2024, pages 76–84, Torino, Italia. ELRA and ICCL.
+    4. Keerthiram Murugesan, Mattia Atzeni, Pavan Kapanipathi, Pushkar Shukla, Sadhana Kumaravel, Gerald Tesauro, Kartik Talamadupula, Mrinmaya Sachan, and Murray Campbell. 2020. Text-based RL Agents with Commonsense Knowledge: New Challenges, Environments and Baselines.
+
+    5. Binggang Zhuo and Masaki Murata. 2024. Utilizing GPT-4 to Solve TextWorld Commonsense Games Efficiently. In Proceedings of the 10th Workshop on Games and Natural Language Processing @ LREC182 COLING 2024, pages 76–84, Torino, Italia. ELRA and ICCL.
