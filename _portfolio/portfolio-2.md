@@ -1,10 +1,10 @@
 ---
 title: "A light ReAct agent based on GPT-4o-mini"
-excerpt: "As part of my work for the Applied NLP course at the University of Arizona, I tested the effectiveness of 3 lightweight language models in common sense reasoning tasks by comparing 1-step and 2-step ReAct agents using GPT-4o mini and the TextWorldExpress Commonsense environment.<br/><img src='/images/react-agent.png'>"
+excerpt: "As part of my work for the Applied NLP course at the University of Arizona, I tested the effectiveness of lightweight language models in common sense reasoning tasks by comparing 1-step and 2-step ReAct agents using GPT-4o mini and the TextWorldExpress Commonsense environment.<br/><img src='/images/react-agent.png'>"
 collection: portfolio
 ---
 
-For this course project, I did conducted 50 episodes of testing, and the results demonstrate that the two-step ReAct agent achieves the highest performance, though scoring approximately 17% lower than similar agents using the full GPT-4 model. This suggests that lightweight models, when combined with appropriate prompting strategies, can offer a viable cost-efficient alternative in scenarios where moderate performance trade-offs are acceptable.
+For this course project, I conducted 50 episodes of testing for each test case, and the results demonstrate that the two-step ReAct agent achieves the highest performance, though scoring approximately 17% lower than similar agents using the full GPT-4 model. This suggests that lightweight models, when combined with appropriate prompting strategies, can offer a viable cost-efficient alternative in scenarios where moderate performance trade-offs are acceptable.
 
 
 **[Github repository for project code](https://github.com/h-akston/react_agent)**
@@ -35,9 +35,9 @@ All LLM-based agents have access to the full context of the last five interactio
 
 * **Random agent**: Random agent takes an action at random out of the list of available actions at each step of the episode. Within this work, the random agent is a way to compare how much better our other agents do compared to pure luck.
 * **Basic agent**: All this agent does is to prompt the model with information containing the episode task and the list of valid actions. The LLM is instructed to respond with only the action; it is explicitly instructed to not generate any other text.
-* **One-step ReAct agent**: To implement this agent, the LLM is asked to consider the situation, including the results of its previous actions, and select the next move out of a list of valid moves provided by the environment. This approach is depicted in Figure 1 (left). The agent does the reasoning and action selection in one step.
+* **One-step ReAct agent**: To implement this agent, the LLM is asked to consider the situation, including the results of its previous actions, and select the next move out of a list of valid moves provided by the environment. This approach is depicted in image below (left). The agent does the reasoning and action selection in one step.
 
-* **Two-step ReAct agent**: This agent also considers its current situation, but instead of performing action selection within the next response, it is asked to think, generating what Yao et al. (2023) call reasoning traces. This process is also depicted in Figure 1 (right). After generating the reasoning traces, the model is prompted to select the action based on the reasoning traces generated in the previous interaction.
+* **Two-step ReAct agent**: This agent also considers its current situation, but instead of performing action selection within the next response, it is asked to think, generating what Yao et al. (2023) call reasoning traces. This process is also depicted in image below (right). After generating the reasoning traces, the model is prompted to select the action based on the reasoning traces generated in the previous interaction.
 
 This is prompt structure for the 1-step ReAct approach vs. 2-step ReAct approach:
 <br/><img src='/images/react-agent.png'>
@@ -47,7 +47,7 @@ For each of the tested agents, we ran 50 episodes of the TextWorldExpress Common
 
 As seen in Table 1, the random agent predictably gets a low normalized score.Basic prompting gives a better result, but it is still only slightly above 15% of the maximum score that is potentially achievable within the environment. Finally, the two ReAct agents score much higher than simple agents, and two steps yield a noticeable better average score than 1 step, especially considering that breaking the ReAct process into two steps does not lead to a significant increase in tokens spent.
 
-The 2-step ReAct agent based on GPT-4o-mini achieves a score that is approximately 17% lower than a score achieved by a similar agent based on GPT-4 (Zhuo and Murata, 2024). Considering that the GPT-4o-mini is very substantially cheaper, there may be situations where a 17% drop in reasoning abilities would be acceptable in exchange for very significant savings.
+The 2-step ReAct agent based on GPT-4o-mini achieves a score that is approximately 17% lower than a score achieved by a similar agent based on GPT-4 (Zhuo and Murata, 2024). Considering that the GPT-4o-mini is substantially cheaper, there may be situations where a 17% drop in reasoning abilities would be acceptable in exchange for very significant savings.
 
 
 <br/><img src='/images/react-results.png'>
