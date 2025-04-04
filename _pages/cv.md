@@ -24,12 +24,12 @@ Work experience
 *  November 2024 — April 2025: Large Language Models Intern
   * XRI Global
   * Duties included: Benchmarking LLMs for low-resource languages
-
+  
 *  May 2021 — April 2023: Natural Language Processing Engineer
   * A1SolarStore.com
   * Duties included: Designed and implemented a system to automatically generate product descriptions based on specifications
   Fine-tuned various image and language models to generate images and text in the same unique style the company has developed over the years
-
+  
 * September 2020 — May 2021: Translator
   * Eksmo Publishing
   * Duties included: Translated Karl Deisseroth's book Projections: A Story of Human Emotions into Russian
@@ -42,10 +42,10 @@ Skills
 
 Awards
 ======
-January 2025: Edmund S. Muskie Professional Fellowship
-May 2023: Fulbright Foreign Student Grant
-September 2019: Oxford Russia Fund Scholarship
-November 2018: Black Sea International Translation Contest
+* January 2025: Edmund S. Muskie Professional Fellowship
+* May 2023: Fulbright Foreign Student Grant
+* September 2019: Oxford Russia Fund Scholarship
+* November 2018: Black Sea International Translation Contest
 
 Service and leadership
 ======
