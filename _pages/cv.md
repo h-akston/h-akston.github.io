@@ -21,11 +21,11 @@ Information Technology in Translation; Translation of Special Texts; Meaning in 
 
 Work experience
 ======
-*  November 2024 — April 2025: Large Language Models Intern
+* November 2024 — April 2025: Large Language Models Intern
   * XRI Global
   * Duties included: Benchmarking LLMs for low-resource languages
   
-*  May 2021 — April 2023: Natural Language Processing Engineer
+* May 2021 — April 2023: Natural Language Processing Engineer
   * A1SolarStore.com
   * Duties included: Designed and implemented a system to automatically generate product descriptions based on specifications
   Fine-tuned various image and language models to generate images and text in the same unique style the company has developed over the years
