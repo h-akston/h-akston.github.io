@@ -10,7 +10,7 @@ redirect_from:
 
 The Human Language Technology program at the [University of Arizona](https://linguistics.arizona.edu/) has been my home for the last 2 years. I am set to graduate with an MS degree in HLT in May 2025.
 
-I hold a BA degree in Translation Studies and an MA degree in Computational Linguistics. My most recent work experience revolved around identifying large languages models that support low-resource languages and benchmarking their performance, as well as working on a scoring system to gauge how affected a given low-resource language is by the digital divide. Before that, I worked with text generation for a solar equipment store.
+I hold a BA degree in Translation Studies and an MA degree in Computational Linguistics. My most recent work experience revolved around identifying large language models that support low-resource languages and benchmarking their performance, as well as working on a scoring system to gauge how affected a given low-resource language is by the digital divide. Before that, I worked with text generation for a solar equipment store.
 
 My journey through computational linguistics wasn't planned. It began with translation work that showed me how language carries cultural nuance no dictionary can capture. While translating Deisseroth's "Projections," I became obsessed with how neural networks could accomplish so many language tasks that I struggled to complete manually.
 
