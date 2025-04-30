@@ -22,16 +22,16 @@ Information Technology in Translation; Translation of Special Texts; Meaning in 
 Work experience
 ======
 * November 2024 — April 2025: Large Language Models Intern
-  * XRI Global
+  * [XRI Global](https://www.xriglobal.ai/)
   * Duties included: Benchmarking LLMs for low-resource languages
   
 * May 2021 — April 2023: Natural Language Processing Engineer
-  * A1SolarStore.com
+  * [A1SolarStore.com](https://a1solarstore.com/)
   * Duties included: Designed and implemented a system to automatically generate product descriptions based on specifications
   Fine-tuned various image and language models to generate images and text in the same unique style the company has developed over the years
   
 * September 2020 — May 2021: Translator
-  * Eksmo Publishing
+  * [Eksmo Publishing](https://en.wikipedia.org/wiki/Eksmo)
   * Duties included: Translated Karl Deisseroth's book Projections: A Story of Human Emotions into Russian
   Translated Peter Hollins' book Build a Better Brain into Russian
   

@@ -6,9 +6,9 @@ collection: portfolio
 
 At XRI Global, I was part of a team working on a project to assess the depth of divide between high-resource languages and low-resource languages when it comes to AI: translation, speech recognition and generation, conversational models. I worked on all things related to language models: building a solution for aggregating LLMs that support low-resource languages, curating a collection of benchmarks for evaluating LLM performance on low-resource languages and measuring the performance of the models using the Global MMLU dataset.
 
-Our team presented this work at the International Conference on Language Technologies for All in Paris in February 2025. <br/><img src='/images/conference.png'>
+Our team presented this work at the International [*Conference on Language Technologies for All*](https://www.lt4all2025.eu/) in Paris in February 2025. <br/><img src='/images/conference.png'>
 
-**[Publication abstract](https://www.lt4all2025.eu/2025/02/24/lt4all-2025-book-of-abstracts-now-available/)**
+**[Publication abstract](https://www.lt4all2025.eu/wp-content/uploads/2025/02/LT4All-2025_Book-of-Abstracts_Final.pdf#page=17)**
 
 **[Our Github repository](https://github.com/XRILLC/inclusiveai)**
 
@@ -16,9 +16,9 @@ Our team presented this work at the International Conference on Language Technol
 
 
 ## Identifying and updating LLMs that support low-resource languages
-There are more than 8,500 languages according to [Glottolog](https://glottolog.org/glottolog/language). On Hugging Face, the largest repository of language models, it is possible to filter results for approximately 4,800 natural languages. There is a problem though: the results need to be in a format that would allow us to use them for a downstream task, such as visualization or loading the models into a benchmarking pipeline. One additional difficulty is that Hugging Face uses two versions of ISO language codes, ISO 639-1 and ISO 639-3, which means that for some languages a user would get a different result based on just luck - the two versions look exactly the same on the website interface. We needed information on all models claiming to support a given low-resource language, and we needed a solution that would allow for easy updating as new models were added to Hugging Face. This meant building a custom API interface.
+There are more than 8,500 languages according to [Glottolog](https://glottolog.org/glottolog/language). On Hugging Face, the largest repository of language models, it is possible to filter results for approximately 4,800 natural languages. There is a problem, though: the results need to be in a format that would allow us to use them for a downstream task, such as visualization or loading the models into a benchmarking pipeline. One additional difficulty is that Hugging Face uses two versions of ISO language codes, ISO 639-1 and ISO 639-3, which means that for some languages, a user would get a different result based on just luck - the two versions look exactly the same on the website interface. We needed information on all models claiming to support a given low-resource language, and we needed a solution that would allow for easy updating as new models were added to Hugging Face. This meant building a custom API interface.
 
-Many courses in the Human Language Technology highlight the importance of reading and following documentation. And thanks to working on a team project for a Data Mining course I had a hands-on experience with getting data from an API.
+Many courses in the Human Language Technology program highlight the importance of reading and following documentation. Thanks to working on a team project for a Data Mining course, I had a hands-on experience with getting data from an API.
 
 Our solution would have to meet a few important requirements:
 * **Filtering certain models out**: Certain language models have limited conversational abilities, so our team needed a way to filter these out using a simple keyword, where "BLOOM" would filter out any BLOOM-based models in our final results.
@@ -34,7 +34,7 @@ Within our team at XRI Global we developed a scoring system to assess how far ah
 
 <br/><img src='/images/scoring.png'>
 
-The main difficulty we encountered while using this scoring system was access to information. Publications on some language are hard to search, and once found, we had to make sure the comparison was a fair one. For example, answering the question of whether a given language has a TTS model available or not will always be tricky, since there is no way to find definitive proof of its absence. I ended up finding all the figures for over a 100+ low-resource languages we were working with at the time, and the section of the Applied NLP course dedicated to research made it so much easier to browse academic publications, extract and compare information. Getting the final scores was a matter of a very simple script with a couple dozen if statements. My work was used to build a digital divide progress bar currently displayed on [our project website](https://inclusiveai-app.vercel.app/).
+The main difficulty we encountered while using this scoring system was access to information. Publications on some languages are hard to search, and once found, we had to make sure the comparison was a fair one. For example, answering the question of whether a given language has a TTS model available or not will always be tricky, since there is no way to find definitive proof of its absence. I ended up finding all the figures for over 100+ low-resource languages we were working with at the time, and the section of the Applied NLP course dedicated to research made it so much easier to browse academic publications, extract and compare information. Getting the final scores was a matter of a very simple script with a couple dozen `if` statements. My work was used to build a digital divide progress bar currently displayed on [our project website](https://inclusiveai-app.vercel.app/).
 
 <br/><img src='/images/progress-bar.png'>
 
@@ -64,7 +64,15 @@ After that it's just a question of building a prompt, repeatedly querying the LL
 
 <br/><img src='/images/prompt-llm.png'>
 
-As I mentioned above, during my time at XRI Global I have run 50+ benchmarks for 5 different low-resource languages. These are the [Global MMLU scores](https://docs.google.com/spreadsheets/d/168Ib_olHqMRWTXDQtM5JiH5JCocfhszB/edit?usp=sharing&ouid=117745677267270111267&rtpof=true&sd=true) that I got as a result.
+As I mentioned above, during my time at XRI Global, I have run 50+ benchmarks for 5 different low-resource languages. These are the [Global MMLU scores](https://docs.google.com/spreadsheets/d/168Ib_olHqMRWTXDQtM5JiH5JCocfhszB/edit?usp=sharing&ouid=117745677267270111267&rtpof=true&sd=true) that I got as a result. For reference, below are the MMLU scores for English and a few other high-resource languages (as of April 2025):
+
+| Language | Model | MMLU Score |
+|:--- |:---- |:----:|
+|English| GPT-o1 | 0.893 |
+|Spanish| Claude-3.5-Sonnet | 0.828 |
+|French| Claude-3.5-Sonnet | 0.823 |
+|German| Claude-3.5-Sonnet | 0.817 |
+|Chinese| AIDC/Macro-72B-Chat | 0.801 |
 
 <br/><img src='/images/bench-results.png'>
 
