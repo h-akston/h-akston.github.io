@@ -64,7 +64,11 @@ After that it's just a question of building a prompt, repeatedly querying the LL
 
 <br/><img src='/images/prompt-llm.png'>
 
-As I mentioned above, during my time at XRI Global, I have run 50+ benchmarks for 5 different low-resource languages. These are the [Global MMLU scores](https://docs.google.com/spreadsheets/d/168Ib_olHqMRWTXDQtM5JiH5JCocfhszB/edit?usp=sharing&ouid=117745677267270111267&rtpof=true&sd=true) that I got as a result. For reference, below are the MMLU scores for English and a few other high-resource languages (as of April 2025):
+As I mentioned above, during my time at XRI Global, I have run 50+ benchmarks for 5 different low-resource languages. These are the [Global MMLU scores](https://docs.google.com/spreadsheets/d/168Ib_olHqMRWTXDQtM5JiH5JCocfhszB/edit?usp=sharing&ouid=117745677267270111267&rtpof=true&sd=true) that I got as a result.
+
+<br/><img src='/images/bench-results.png'>
+
+For reference, below are the MMLU scores for English and a few other high-resource languages (as of April 2025):
 
 | Language | Model | MMLU Score |
 |:--- |:---- |:----:|
@@ -73,7 +77,5 @@ As I mentioned above, during my time at XRI Global, I have run 50+ benchmarks fo
 |French| Claude-3.5-Sonnet | 0.823 |
 |German| Claude-3.5-Sonnet | 0.817 |
 |Chinese| AIDC/Macro-72B-Chat | 0.801 |
-
-<br/><img src='/images/bench-results.png'>
 
 [^note]: The method for benchmarking LLMs described here is an implementation of the system outlined in Dr. Leon Eversberg's [publication](https://medium.com/data-science/how-to-evaluate-multilingual-llms-with-global-mmlu-ce314aedee8f) on the topic. All credit belongs to Dr. Leon Eversberg.
